@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0b1020">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="쉼">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+<title>쉼 · 명상</title>
+</head>
+<body>
+<main id="home">
+  <header><h1>쉼</h1><p class="sub">오늘의 나에게 필요한 명상을 골라 보세요</p></header>
+  <nav id="cats"></nav>
+  <section id="list"></section>
+  <p class="foot">화면을 꺼도 계속 재생됩니다 · <button id="dlall" class="link">전체 오프라인 저장</button></p>
+</main>
+
+<section id="player" hidden>
+  <button id="back" class="icon" aria-label="뒤로">‹</button>
+  <div class="orb" id="orb"></div>
+  <p id="pcat" class="pcat"></p>
+  <h2 id="ptitle"></h2>
+  <div class="bar"><input id="seek" type="range" min="0" max="1000" value="0"></div>
+  <div class="times"><span id="cur">0:00</span><span id="rem">-0:00</span></div>
+  <div class="controls">
+    <button id="rew" class="icon" aria-label="15초 뒤로">↺<small>15</small></button>
+    <button id="play" class="playbtn" aria-label="재생">▶</button>
+    <button id="fwd" class="icon" aria-label="15초 앞으로">↻<small>15</small></button>
+  </div>
+  <div class="extras">
+    <button id="dim" class="chip">🌙 화면 어둡게</button>
+    <button id="save" class="chip">⬇ 오프라인 저장</button>
+  </div>
+</section>
+<div id="dimmer" hidden><p>화면을 두 번 탭하면 돌아갑니다</p></div>
+<audio id="audio" preload="metadata" playsinline></audio>
+<script src="app.js"></script>
+</body>
+</html>

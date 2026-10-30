@@ -1,0 +1,110 @@
+[
+ {
+  "id": "sleep-05",
+  "cat": "sleep",
+  "title": "편안한 잠으로",
+  "minutes": 5,
+  "duration": 300.0,
+  "file": "audio/sleep-05.mp3",
+  "size": 2400673
+ },
+ {
+  "id": "sleep-07",
+  "cat": "sleep",
+  "title": "하루를 내려놓기",
+  "minutes": 7,
+  "duration": 420.0,
+  "file": "audio/sleep-07.mp3",
+  "size": 3360676
+ },
+ {
+  "id": "sleep-10",
+  "cat": "sleep",
+  "title": "밤바다 파도 소리",
+  "minutes": 10,
+  "duration": 600.0,
+  "file": "audio/sleep-10.mp3",
+  "size": 4800677
+ },
+ {
+  "id": "sleep-15",
+  "cat": "sleep",
+  "title": "깊은 이완 바디스캔",
+  "minutes": 15,
+  "duration": 900.0,
+  "file": "audio/sleep-15.mp3",
+  "size": 7200680
+ },
+ {
+  "id": "breath-03",
+  "cat": "breath",
+  "title": "3분 리셋 호흡",
+  "minutes": 3,
+  "duration": 180.0,
+  "file": "audio/breath-03.mp3",
+  "size": 1440672
+ },
+ {
+  "id": "breath-05",
+  "cat": "breath",
+  "title": "4-6 안정 호흡",
+  "minutes": 5,
+  "duration": 300.0,
+  "file": "audio/breath-05.mp3",
+  "size": 2400671
+ },
+ {
+  "id": "breath-10",
+  "cat": "breath",
+  "title": "네모 호흡과 알아차림",
+  "minutes": 10,
+  "duration": 600.0,
+  "file": "audio/breath-10.mp3",
+  "size": 4800683
+ },
+ {
+  "id": "walk-05",
+  "cat": "walk",
+  "title": "발걸음에 집중하기",
+  "minutes": 5,
+  "duration": 300.0,
+  "file": "audio/walk-05.mp3",
+  "size": 2400679
+ },
+ {
+  "id": "walk-10",
+  "cat": "walk",
+  "title": "감각을 깨우는 걷기",
+  "minutes": 10,
+  "duration": 600.0,
+  "file": "audio/walk-10.mp3",
+  "size": 4800680
+ },
+ {
+  "id": "lunch-05",
+  "cat": "lunch",
+  "title": "짧은 마음 환기",
+  "minutes": 5,
+  "duration": 300.0,
+  "file": "audio/lunch-05.mp3",
+  "size": 2400674
+ },
+ {
+  "id": "lunch-10",
+  "cat": "lunch",
+  "title": "굳은 몸 풀며 걷기",
+  "minutes": 10,
+  "duration": 600.0,
+  "file": "audio/lunch-10.mp3",
+  "size": 4800678
+ },
+ {
+  "id": "lunch-15",
+  "cat": "lunch",
+  "title": "감사와 재충전 산책",
+  "minutes": 15,
+  "duration": 900.0,
+  "file": "audio/lunch-15.mp3",
+  "size": 7200680
+ }
+]
